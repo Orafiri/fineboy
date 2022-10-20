@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+.pos{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    
+}
+.pos2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+}
+.container{
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content:center ;
+    padding: 100px;
+    background-color: grey;
+    width: 300px;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+.card{
+    position: relative;
+}
+img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+
+}
+.card_img{
+    background: rgb(219, 212, 212);
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    background-color: white;
+    padding: 10px;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid dodgerblue;
+}
+.icon i{
+    font-weight: 800px;
+    font-size: 20px;
+
+}
+.image-details{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-style: italic;
+}
